@@ -1,0 +1,37 @@
+Request method:	GET
+Request URI:	https://my-json-server.typicode.com/typicode/demo/posts/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=1
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Mon, 20 Apr 2020 15:12:41 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 34
+Connection: keep-alive
+Set-Cookie: __cfduid=d7f57c4addbb1f0c43aaa7cd04d3402391587395561; expires=Wed, 20-May-20 15:12:41 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+X-Powered-By: Express
+Vary: Origin, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+X-Content-Type-Options: nosniff
+Etag: W/"22-ORE+sIpA7k7Lz7HudwoA9jNFWEk"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Server: cloudflare
+CF-RAY: 586fce1098e6e798-LAX
+cf-request-id: 0239bf1e610000e7981e2c1200000001
+
+{
+    "id": 1,
+    "title": "Post 1"
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-04-20T15:12:37.572Z",
+        "line": 2,
+        "name": "Verify if the API response is matched",
+        "description": "",
+        "id": "validating-api-end-point;verify-if-the-api-response-is-matched",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 693411000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "GetPost API with id is \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepDefinations.StepDefination.getpost_API_with_id_is(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3327684000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user calls GetPost API with GET http request",
+            "match": {
+              "location": "stepDefinations.StepDefination.user_calls_GetPost_API_with_http_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 401421000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "\"id\" in response body is \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"id\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"1\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepDefinations.StepDefination.in_response_body_is(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13801000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "\"title\" in response body is \"Post1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"title\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"Post1\"",
+                  "offset": 28
+                }
+              ],
+              "location": "stepDefinations.StepDefination.in_response_body_is(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Validating API End Point",
+    "description": "",
+    "id": "validating-api-end-point",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/testcase.feature",
+    "tags": []
+  }
+]
